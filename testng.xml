@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/ATOS2023_R01">
+        <classes>
+            <class name="tuanTT.testVanHanh.testFixCart">
+            </class>
+            <class name="tuanTT.testVanHanh.testOrderCustomer">
+            </class>
+            <class name="tuanTT.testVanHanh.testRegister">
+            </class>
+            <class name="tuanTT.testVanHanh.testSearch">
+            </class>
+            <class name="tuanTT.testVanHanh.testSearchAdmin">
+            </class>
+
+
+        </classes>
+    </test>
+</suite>
