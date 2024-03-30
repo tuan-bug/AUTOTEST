@@ -7,9 +7,14 @@ import org.testng.annotations.Test;
 public class HomePageTest extends BaseTest {
 
     @Test
-    public void test1(){
+    public void testClickLogo(){
         HomePage homePage = new HomePage(getDriver());
-        homePage.clickLogin();
+        homePage.clickLogo();
+    }
 
+    @Test
+    public void testCLickMennuBar(){
+        HomePage homePage = new HomePage(getDriver());
+        homePage.clickMenu();
     }
 }
